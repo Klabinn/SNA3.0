@@ -18,4 +18,6 @@ $row = mysqli_fetch_assoc($result);
 $total = $row['total'];
 
 echo "Total number of data: " . $total . "<br>";
+
+//testing
 ?>
