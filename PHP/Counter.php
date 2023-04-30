@@ -18,12 +18,4 @@ $row = mysqli_fetch_assoc($result);
 $total = $row['total'];
 
 echo "Total number of data: " . $total . "<br>";
-
-$stmt = 'SELECT * FROM users';
-
-$result = mysqli_query($conn, $stmt);
-
-while ($row = mysqli_fetch_assoc($result)) {
-    echo $row['ID'] . $row['Nama'] . $row['Alamat'] . $row['Jabatan'] . '<br>';
-}
 ?>
